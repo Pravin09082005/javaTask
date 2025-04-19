@@ -19,14 +19,14 @@ grade = studentGrade;
 }
 
 
-public class StudentDemo extends Student
+public class StudentDemoClsObj extends Student
 {
 public static void main(String[] args)
 {
-StudentDemo student1 = new StudentDemo(); 
+StudentDemoClsObj student1 = new StudentDemoClsObj(); 
 student1.setDetails("Subasree", 20, "A"); 
 student1.displayDetails();
-StudentDemo student2 = new StudentDemo(); 
+StudentDemoClsObj student2 = new StudentDemoClsObj(); 
 student2.setDetails("Jayashree", 19, "B"); 
 student2.displayDetails();
 }

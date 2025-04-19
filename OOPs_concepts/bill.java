@@ -5,9 +5,9 @@ public class bill {
 
 	public void displayDetails(String name , String time)
 	{
-		System.out.println("\t XYZ Shopping Corner \n Unknown Street, Unknown Place\n Unknown City, Phone number:1234567890");
+		System.out.println("\t Jaca Shopping Corner \n M.G Street, pondicherry\n pondicherry, Phone number:1234567890");
 		System.out.println("\t\n\t Retail Invoice \t");
-		System.out.println("\t\nName: " + name + "\n\nDate :" + time + "\t Bill Number: 665789");
+		System.out.println("\t\nName: " + name + "\n\nDate :" + time + "\t Bill Number: 111111");
 	}
 	public static void displayLine()
 	{
@@ -46,7 +46,7 @@ public class bill {
 	public static void main(String args[])
 	{
 		bill c1 = new bill();
-		c1.displayDetails("Tony Richardson" ,"26-04-24 19:52:15");
+		c1.displayDetails("pravin" ,"12-04-25 19:52:15");
 		displayLine();
 		c1.calculateBottle("Bottle", 20, 7);
 	    c1.calculateBag("Bag", 500, 1);
